@@ -12,6 +12,7 @@ dd = [[0 for j in range(w)] for i in range(h)]
 # 놓을 수 있는 막대의 개수(n)
 n = int(input())
 
+# 알고리즘
 for k in range(n):
     # 각 막대의 길이(l), 방향(d), 좌표(x,y)입력  // d=0:가로 / d=1:세로
     l,d,x,y = input().split()

@@ -7,7 +7,7 @@
 # 바둑판 배열 초기화
 d = [[ 0 for j in range(19)] for i in range(19)]
 
-# 입력 받기
+# 입력
 for i in range(19):
     a = input().split()
     for j in range(19):
